@@ -30,7 +30,7 @@ function noite() {
 function relogio(){
     let horario_atual = new Date();
 
-    let hora_atual = horario_atual.getHours();
+    let hora_atual = horario_atual.getHours();;
     let minuto_atual = horario_atual.getMinutes();
     let segundo_atual = horario_atual.getSeconds();
 
