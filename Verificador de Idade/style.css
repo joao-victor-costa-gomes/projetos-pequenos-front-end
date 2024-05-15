@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #00a7e9;    
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo {
+    color: white; 
+    font-size: 35px;
+    font-weight: bold;
+    padding: 30px 0px 30px;
+}
+
+.box-sistema {
+    width: 500px;
+    padding: auto;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
+    padding: 15px;
+    
+}
+
+.box-sistema p {
+    padding: 10px 0px 15px;
+}
+
+.resposta {
+    padding: 10px 0px 15px;
+    display: flex; /* Adiciona o display flex */
+    flex-direction: column; /* Define a direção como coluna */
+    align-items: center; /* Centraliza os itens na coluna */
+}
