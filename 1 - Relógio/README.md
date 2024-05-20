@@ -6,7 +6,7 @@ Esse pequeno projeto consiste em um relógio digital programado em JavaScript, c
 ![relogio-dia](md/relogio-dia.PNG)
 
 ### HORÁRIO DA TARDE
-![relogio-dia](md/relogio-tarde.PNG)
+![relogio-tarde](md/relogio-tarde.PNG)
 
 ### HORÁRIO DA NOITE
-![relogio-dia](md/relogio-noite.PNG)
+![relogio-noite](md/relogio-noite.PNG)
