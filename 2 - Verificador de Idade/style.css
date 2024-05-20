@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #00a7e9;    
+    background: linear-gradient(90deg, rgba(112,232,255,1) 0%, rgba(0,159,255,1) 49%, rgba(0,129,255,1) 100%)  
 }
 
 .content {
@@ -38,7 +38,7 @@ body {
 
 .resposta {
     padding: 10px 0px 15px;
-    display: flex; /* Adiciona o display flex */
-    flex-direction: column; /* Define a direção como coluna */
-    align-items: center; /* Centraliza os itens na coluna */
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
 }
