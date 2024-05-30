@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: rgb(24, 24, 24);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('background.PNG') no-repeat center center fixed;
+    background-size: cover;
+    opacity: 0.3; 
+    z-index: -1;
+}
+
+.titulo {
+    font-size: 40px;
+    color: white;
+    padding: 20px 0px 20px ;
+    font-weight: bold;
+}
+
+.box-content {
+    background-color: white; 
+    width: 700px;
+    border-radius: 15px;
+}
+
+.box-input {
+    font-size: 20px;
+    padding: 15px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+
+.box-input input {
+    text-align: center;
+}
+
+#numero-tabuada {
+    font-size: 17px;
+    text-align: center;
+}
+
+#botao-gerar {
+    font-size: 17px;
+}
+
+#box-tabuada {
+    background-color: lightgray;
+    border-radius: 15px;
+    color: black;
+    font-size: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
+    margin: 15px 15px 15px;
+}
+
+#box-tabuada p{
+    padding: 3px;
+}
+
