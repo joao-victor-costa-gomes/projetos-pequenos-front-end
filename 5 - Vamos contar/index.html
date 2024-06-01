@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>CONTANDO PASSOS</h1>
+
+    <div class="content">
+
+        <div class="insercoes">
+            <p> Início: <input type="text" name="numero_inicio" id="inicio"> </p>
+            <p> Fim: <input type="text" name="numero_fim" id="fim"> </p>
+            <p> Passo: <input type="text" name="numero_passos" id="passos"> </p>
+            <p><input type="button" value="CONTAR" id="botao" onclick="gerar_passos()"></p>
+        </div>
+
+        <div id="resultado">
+            A contagem será mostrada aqui...
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

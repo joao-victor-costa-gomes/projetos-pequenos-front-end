@@ -3,7 +3,7 @@ function gerar_tabuada() {
     let tabuada_resposta = document.getElementById("box-tabuada");
 
     tabuada_resposta.innerHTML = "";
-
+    
     if (numero_tabuada == "") {
         alert("Insira algum valor na caixa de entrada")
 
