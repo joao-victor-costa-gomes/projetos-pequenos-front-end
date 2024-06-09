@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANALISANDO NÚMEROS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>  
+    <div id="titulo">ANÁLISE DE NÚMEROS</div>
+
+    <div id="container">
+        <div id="inputs">
+            <p>Número (entre 1 e 100) </p>
+            <input type="text" min="1" id="box-input">
+            <button onclick="adicionarValor()" id="botao-adicionar">ADICIONAR</button>
+        </div>
+        
+        <select name="lista-numeros" id="lista-numeros" size="6"></select>
+
+        <div id="botao-finalizar">
+            <button onclick="analisarValores()">FINALIZAR</button>
+        </div>
+            
+        <div id="resposta"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
