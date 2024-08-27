@@ -5,40 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TO DO LIST</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="assets/fonts.css">
 </head>
 <body>
-    <main class="main-container">
+    <h1>TO DO LIST</h1>
 
-        <h1>TO DO LIST</h1>
+    <div class="list-container">
 
-        <div class="list-container">
-
-            <!-- input + botão -->
-            <div class="add-item-container">
-                <input type="text" name="task-input" id="task-input" placeholder="Adicione uma tarefa...">
-                
-                <button id="task-input-button">
-                    ADD
-                </button>
-            </div>
-
-            <!-- tarefas adicionadas -->
-            <div class="tasks-container">
-                <ul class="to-do-list">
-                    <li>ADICIONEI UM ITEM A MINHA LISTA</li>
-                    <li>ADICIONEI UM ITEM A MINHA LISTA</li>
-                    <li>ADICIONEI UM ITEM A MINHA LISTA</li>
-                    <li>ADICIONEI UM ITEM A MINHA LISTA</li>
-                    <li>ADICIONEI UM ITEM A MINHA LISTA</li>
-                </ul>
-            </div>
-
+        <!-- input + botão -->
+        <div class="add-item-container">
+            <input type="text" name="task-input" id="task-input" placeholder="Adicione uma tarefa...">
+            <button id="task-input-button" onclick="addTask()">Add</button>
         </div>
 
-    </main>
+        <!-- tarefas adicionadas -->
+        <div class="tasks-container">
+            <ul id="to-do-list"></ul>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
 </body>
-
-<script src="script.js"></script>
-
 </html>
