@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #EEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider {
+    max-width: 1100px;
+    margin: 0 60px 25px;
+    padding: 20px 10px;
+    overflow: hidden;
+}
+
+.card-link {
+    user-select: none;
+    display: block;
+    background-color: #FFF;
+    padding: 18px;
+    border-radius: 12px;
+    text-decoration: none;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid transparent;
+    transition: 0.2s ease;
+
+}
+
+.card-link:hover {
+    border-color: #5372F0;
+}
+
+.card-image {
+    width: 90%;
+    border-radius: 12px;
+    background-color: #f0eeee6e;
+    margin-left: 12px;
+}
+
+.card-item {
+    list-style-type: none;
+}
+
+.type {
+    color: #FFF;
+    font-weight: bold;
+    font-size: 0.95rem;
+    padding: 8px 16px;
+    margin: 16px 0 8px;
+    width: 100px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.type-fire {
+    background-color: #FD7D24;
+}
+
+.type-grass {
+    background-color: #9BCC50;
+}
+
+.type-venom {
+    background-color: #B97FC9;
+}
+
+.type-normal {
+    background-color: #A8A878;
+}
+
+.type-electric {
+    background-color: #F8D030;
+}
+
+.type-water {
+    background-color: #4592C4;
+}
+
+.card-description {
+    color: #000; 
+    font-size: 1.19rem;
+    font-weight: bold;
+    text-align: justify;
+    height: 100px;
+    margin-top: 10px;
+}
+
+.card-button {
+    height: 35px;
+    width: 35px;
+    color: #5372F0;
+    border-radius: 50%;
+    margin: 10px 0 5px;
+    background: none;
+    border: 2px solid #5372F0;
+    cursor: pointer; 
+    transform: rotate(-45deg);
+    transition: 0.4s ease;
+}
+
+.card-list .card-link:hover .card-button {
+    color: #FFF; 
+    background: #5372F0;
+}
+
+.type-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.name {
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    margin-bottom: 10px;
+}

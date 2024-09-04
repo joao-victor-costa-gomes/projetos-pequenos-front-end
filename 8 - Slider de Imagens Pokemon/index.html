@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Linking Icons  -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <!-- Linking Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+    <!-- Linking SwiperJS  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    
+    <title>Slider de Imagens</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container swiper">
+
+        <div class="slider">
+            <ul class="card-list swiper-wrapper">
+                <li class="card-item swiper-slide">
+                    <a href="https://www.pokemon.com/br/pokedex/eevee" class="card-link" target="_blank">
+                        <h2 class="name">Eevee</h2>
+                        <img src="img/eevee.png" alt="eevee" class="card-image">
+                        <div class="type-container">
+                            <p class="type type-normal">NORMAL</p>
+                        </div>
+                        <h2 class="card-description">Its ability to evolve into many forms allows it to adapt smoothly and perfectly to any environment.</h2>
+                        <button class="card-button material-symbols-outlined">arrow_forward</button>
+                    </a>
+                </li>   
+                
+                <li class="card-item swiper-slide">
+                    <a href="https://www.pokemon.com/br/pokedex/bulbasaur" class="card-link" target="_blank">
+                        <h2 class="name">Bulbasaur</h2>
+                        <img src="img/bulbassaur.png" alt="bulbasaur" class="card-image">
+                        <div class="type-container">
+                            <p class="type type-grass">GRASS</p>
+                            <p class="type type-venom">POISON</p>
+                        </div>
+                        <h2 class="card-description">For some time after its birth, it uses the nutrients that are packed into the seed on its back in order to grow.</h2>
+                        <button class="card-button material-symbols-outlined">arrow_forward</button>
+                    </a>
+                </li>  
+
+                <li class="card-item swiper-slide">
+                    <a href="https://www.pokemon.com/br/pokedex/charmander" class="card-link" target="_blank">
+                        <h2 class="name">Charmander</h2>
+                        <img src="img/charmander.png" alt="charmander" class="card-image">
+                        <div class="type-container">
+                            <p class="type type-fire">FIRE</p>
+                        </div>
+                        <h2 class="card-description">The flame on its tail shows the strength of its life-force. If Charmander is weak, the flame also burns weakly.</h2>
+                        <button class="card-button material-symbols-outlined">arrow_forward</button>
+                    </a>
+                </li>  
+
+                <li class="card-item swiper-slide">
+                    <a href="https://www.pokemon.com/br/pokedex/squirtle" class="card-link" target="_blank">
+                        <h2 class="name">Squirtle</h2>
+                        <img src="img/squirtle.png" alt="squirtle" class="card-image">
+                        <div class="type-container">
+                            <p class="type type-water">WATER</p>
+                        </div>
+                        <h2 class="card-description">After birth, its back swells and hardens into a shell. It sprays a potent foam from its mouth.</h2>
+                        <button class="card-button material-symbols-outlined">arrow_forward</button>
+                    </a>
+                </li> 
+
+                <li class="card-item swiper-slide">
+                    <a href="https://www.pokemon.com/br/pokedex/pikachu" class="card-link" target="_blank">
+                        <h2 class="name">Pikachu</h2>
+                        <img src="img/pikachu.png" alt="pikachu" class="card-image">
+                        <div class="type-container">
+                            <p class="type type-electric">ELETRIC</p>
+                        </div>
+                        <h2 class="card-description">When it is angered, it immediately discharges the energy stored in the pouches in its cheeks.</h2>
+                        <button class="card-button material-symbols-outlined">arrow_forward</button>
+                    </a>
+                </li>  
+            </ul>
+        </div>
+
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+    </div>
+
+    <!-- Linking Swiper script  -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
